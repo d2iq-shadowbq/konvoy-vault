@@ -9,7 +9,7 @@ https://www.vaultproject.io/docs/platform/k8s/run.html
 
 Konvoy already has Helm installed so use D2iQ's Kubernetes installer Konvoy.
 
-Tested versions: 1.15.3
+Tested Kubernetes versions: 1.15.3, 1.15.4
 
 ```
 konvoy apply kubeconfig
@@ -179,18 +179,18 @@ This is a Vault so they keep security as a high priority so you need to store th
 
 **HEY!!!!  KEEP THE 5 UNSEAL KEYS!!!!**
 
-HEY!!!!  KEEP THE INITIAL ROOT TOKEN!!!!
+**HEY!!!!  KEEP THE INITIAL ROOT TOKEN!!!!**
 
 Should look like...
 ```
 K8S vault-helm $ vault operator init
-Unseal Key 1: **6IRtCLLDkLJqBH4JyROqke8nIDMOB2YbpiGmuFr6G8fa**
-Unseal Key 2: **ctOyIJx0LjYdypARO9ynkRIKv0DplLVTEFcVXJrk7OIf**
+Unseal Key 1: 6IRtCLLDkLJqBH4JyROqke8nIDMOB2YbpiGmuFr6G8fa
+Unseal Key 2: ctOyIJx0LjYdypARO9ynkRIKv0DplLVTEFcVXJrk7OIf
 Unseal Key 3: Ec66GNennT5/zy6aX61NdJkOAIYmDEF2d+UV3B2JlPce
 Unseal Key 4: ckf/fonXhWnF1fhzvQH3gHunJmcF2/oi3yHACBXpXf4O
 Unseal Key 5: s2FAn6RZxeB6zbdwznZ5hmV/bJfWaMMzYBCkLmZ5+zMw
 
-Initial Root Token: **s.fJ3esKKQ6C3izZqIhKltmgfG**
+Initial Root Token: s.fJ3esKKQ6C3izZqIhKltmgfG
 
 Vault initialized with 5 key shares and a key threshold of 3. Please securely
 distribute the key shares printed above. When the Vault is re-sealed,
@@ -248,6 +248,8 @@ Should look like...
 
 Now we are in the Vault UI!
 ![IMG V1-UI4-Success](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI4-Success.png)
+
+## Setup Test
 
 
 
