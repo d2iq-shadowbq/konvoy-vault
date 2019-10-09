@@ -1,4 +1,4 @@
-.git*
-vault-helm/
+.gitignore
+vault-helm
 vault-helm/*
 JD*
