@@ -177,7 +177,7 @@ vault operator init
 
 This is a Vault so they keep security as a high priority so you need to store these unseal keys and the root token.  If you lose these then you lose access to the Vault.
 
-HEY!!!!  KEEP THE 5 UNSEAL KEYS!!!!
+**HEY!!!!  KEEP THE 5 UNSEAL KEYS!!!!**
 
 HEY!!!!  KEEP THE INITIAL ROOT TOKEN!!!!
 
