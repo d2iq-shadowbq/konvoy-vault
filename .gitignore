@@ -1,4 +1,3 @@
 .gitignore
 vault-helm
-vault-helm/*
 JD*
