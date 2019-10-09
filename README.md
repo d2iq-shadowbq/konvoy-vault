@@ -184,13 +184,13 @@ HEY!!!!  KEEP THE INITIAL ROOT TOKEN!!!!
 Should look like...
 ```
 K8S vault-helm $ vault operator init
-Unseal Key 1: 6IRtCLLDkLJqBH4JyROqke8nIDMOB2YbpiGmuFr6G8fa
-Unseal Key 2: ctOyIJx0LjYdypARO9ynkRIKv0DplLVTEFcVXJrk7OIf
+Unseal Key 1: **6IRtCLLDkLJqBH4JyROqke8nIDMOB2YbpiGmuFr6G8fa**
+Unseal Key 2: **ctOyIJx0LjYdypARO9ynkRIKv0DplLVTEFcVXJrk7OIf**
 Unseal Key 3: Ec66GNennT5/zy6aX61NdJkOAIYmDEF2d+UV3B2JlPce
 Unseal Key 4: ckf/fonXhWnF1fhzvQH3gHunJmcF2/oi3yHACBXpXf4O
 Unseal Key 5: s2FAn6RZxeB6zbdwznZ5hmV/bJfWaMMzYBCkLmZ5+zMw
 
-Initial Root Token: s.fJ3esKKQ6C3izZqIhKltmgfG
+Initial Root Token: **s.fJ3esKKQ6C3izZqIhKltmgfG**
 
 Vault initialized with 5 key shares and a key threshold of 3. Please securely
 distribute the key shares printed above. When the Vault is re-sealed,
