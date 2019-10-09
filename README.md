@@ -234,7 +234,7 @@ open http://127.0.0.1:8200
 ```
 
 Should look like...
-[IMG V1-UI1-UnsealVault](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI1-UnsealVault.png)
+![IMG V1-UI1-UnsealVault](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI1-UnsealVault.png)
 
 Unseal Vault by copying 3 of the unseal keys (from the init above) into the prompt
 

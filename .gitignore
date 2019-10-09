@@ -1,3 +1,4 @@
+.git*
 vault-helm/
 vault-helm/*
 JD*
