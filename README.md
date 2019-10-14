@@ -249,6 +249,14 @@ Should look like...
 Now we are in the Vault UI!
 ![IMG V1-UI4-Success](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI4-Success.png)
 
+
+You will also see that the Vault pod now has passed its health checks so fully up.
+```
+K8S vault-helm $ kubectl get pods
+NAME      READY   STATUS    RESTARTS   AGE
+vault-0   1/1     Running   0          3m15s
+```
+
 ## Setup Test
 
 
