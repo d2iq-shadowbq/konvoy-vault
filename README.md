@@ -30,14 +30,13 @@ ip-10-0-195-2.us-west-2.compute.internal     Ready    master   3h52m   v1.15.3
 ip-10-0-195-78.us-west-2.compute.internal    Ready    master   3h50m   v1.15.3
 ```
 
-### 2. Install Helm
+### 2. Install Helm 2.x
 
 https://helm.sh/docs/using_helm/#installing-helm
 
-Mac:
-```
-brew install helm
-```
+Mac: Brew will likely install helm3x Do NoT do this!
+
+Download from Helm.sh
 
 Should look like this...
 ```
@@ -45,6 +44,8 @@ K8S $ helm version
 Client: &version.Version{SemVer:"v2.11.0", GitCommit:"2e55dbe1fdb5fdb96b75ff144a339489417b146b", GitTreeState:"clean"}
 Server: &version.Version{SemVer:"v2.14.3", GitCommit:"0e7f3b6637f7af8fcfddb3d2941fcc7cbebb0085", GitTreeState:"clean"}
 ```
+
+
 
 ## Install Vault
 
