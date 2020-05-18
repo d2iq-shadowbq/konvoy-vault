@@ -4,6 +4,8 @@
 
 https://www.vaultproject.io/docs/platform/k8s/run.html
 
+https://github.com/coreos/vault-operator
+
 ## Prerequisites
 ### 1. Connect to Kubernetes
 
