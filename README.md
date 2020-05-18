@@ -4,6 +4,8 @@
 
 https://www.vaultproject.io/docs/platform/k8s/run.html
 
+https://github.com/hashicorp/vault-helm
+
 https://github.com/coreos/vault-operator
 
 ## Prerequisites
@@ -237,20 +239,20 @@ open http://127.0.0.1:8200
 ```
 
 Should look like...
-![IMG V1-UI1-UnsealVault](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI1-UnsealVault.png)
+![IMG V1-UI1-UnsealVault](/IMAGES/V1-UI1-UnsealVault.png)
 
 Unseal Vault by copying 3 of the unseal keys (from the init above) into the prompt
 
 Should look like...
-![IMG V1-UI2-InputUnsealKeys](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI2-InputUnsealKeys.png)
+![IMG V1-UI2-InputUnsealKeys](/IMAGES/V1-UI2-InputUnsealKeys.png)
 
 Now, login to Vault using the initial root token (from the init above) into the Token field
 
 Should look like...
-![IMG V1-UI3-SigningWithRootToken](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI3-SigninWithRootToken.png)
+![IMG V1-UI3-SigningWithRootToken](/IMAGES/V1-UI3-SigninWithRootToken.png)
 
 Now we are in the Vault UI!
-![IMG V1-UI4-Success](https://github.com/jdyver/konvoy-vault/blob/master/IMAGES/V1-UI4-Success.png)
+![IMG V1-UI4-Success](/IMAGES/V1-UI4-Success.png)
 
 
 You will also see that the Vault pod now has passed its health checks so fully up.
@@ -270,7 +272,7 @@ vault-0   1/1     Running   0          3m15s
 
 ## Notes
 
-TBD-1 NOTE - May need to use LB in values.yaml of the helm chart...
+TBD-1 NOTE - May need to use LB in `values.yaml` of the helm chart...
 ```
 global:
   enabled: true
